@@ -1,9 +1,11 @@
 package com.avicit.bean;
 
+import java.io.Serializable;
+
 /**
  * Created by zhaoc on 2018/7/12
  */
-public class Employee {
+public class Employee implements Serializable {
 
     private Integer id;
     private String lastName;
